@@ -1,0 +1,142 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Fish_diets.csv",
+    "dcterms:bibliographicCitation" : "Carvajal-Quintero, J.D. et al. 2026. Degradation of fish food webs in the Anthropocene. Science Advances. https://doi.org/10.1126/sciadv.adu6540",
+    "delimiter" : ",",
+    "interactionTypeName": "preysOn",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002439",
+    "headerRowCount" : 1,
+    "null" : [ "NA" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "TrophClass",
+        "titles" : "TrophClass",
+        "datatype" : "string"
+      }, {
+        "name" : "RecordID",
+        "titles" : "RecordID",
+        "datatype" : "string"
+      }, {
+        "name" : "PredatorSpCode",
+        "titles" : "PredatorSpCode",
+        "datatype" : "string"
+      }, {
+        "name" : "TaxoRef",
+        "titles" : "TaxoRef",
+        "datatype" : "string"
+      }, {
+        "name" : "Predator",
+        "titles" : "Predator",
+        "datatype" : "string"
+      }, {
+        "name" : "PredatorSciNameValid",
+        "titles" : "PredatorSciNameValid",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "PredLifeStage",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonKingdomName",
+        "titles" : "PredatorKingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylumName",
+        "titles" : "PredatorPhylum",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClassName",
+        "titles" : "PredatorClass",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "PredatorOrder",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "PredatorFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "PredatorGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "Pred_Fresh",
+        "titles" : "Pred_Fresh",
+        "datatype" : "string"
+      }, {
+        "name" : "Pred_Brack",
+        "titles" : "Pred_Brack",
+        "datatype" : "string"
+      }, {
+        "name" : "Pred_Saltwater",
+        "titles" : "Pred_Saltwater",
+        "datatype" : "string"
+      }, {
+        "name" : "Pred_Length",
+        "titles" : "Pred_Length",
+        "datatype" : "string"
+      }, {
+        "name" : "Prey",
+        "titles" : "Prey",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "PreyTaxonValid",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonKingdomName",
+        "titles" : "PreyKingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylumName",
+        "titles" : "PreyPhylum",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClassName",
+        "titles" : "PreyClass",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "PreyOrder",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "PreyFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "PreyGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "Prey_Fresh",
+        "titles" : "Prey_Fresh",
+        "datatype" : "string"
+      }, {
+        "name" : "Prey_Brack",
+        "titles" : "Prey_Brack",
+        "datatype" : "string"
+      }, {
+        "name" : "Prey_Saltwater",
+        "titles" : "Prey_Saltwater",
+        "datatype" : "string"
+      }, {
+        "name" : "Prey_Length",
+        "titles" : "Prey_Length",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "DataSource",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
