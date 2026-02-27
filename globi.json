@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "Fish_diets.csv",
+    "url" : "data/e9/84/e984fca3450df0dbb9cf3a8b45c4010a",
     "dcterms:bibliographicCitation" : "Carvajal-Quintero, J.D. et al. 2026. Degradation of fish food webs in the Anthropocene. Science Advances. https://doi.org/10.1126/sciadv.adu6540",
     "delimiter" : ",",
     "interactionTypeName": "preysOn",
