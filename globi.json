@@ -37,7 +37,7 @@
         "titles" : "Predator",
         "datatype" : "string"
       }, {
-        "name" : "PredatorSciNameValid",
+        "name" : "sourceTaxonName",
         "titles" : "PredatorSciNameValid",
         "datatype" : "string"
       }, {
